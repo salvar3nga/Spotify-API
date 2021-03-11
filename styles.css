@@ -1,0 +1,57 @@
+.container{
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    width: 100%;
+}
+
+thead{
+   text-align: left; 
+   background-color:  rgb(117, 111, 111);
+   color: white;
+   transition: 0.7s;
+}
+
+th, tr{
+    padding: 12px 20px;
+    text-align: center;
+}
+
+tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:last-of-type{
+    border-bottom: none;
+}
+
+img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+button{
+    background-color: rgb(117, 111, 111);
+    color: black;
+    border-radius: 10px;
+}
+
+.fixedPosition{
+    position: fixed;
+    top: 0;
+    width: 80%;
+}
+
+.fixedPosition .styleIt{
+   display: flex;
+   justify-content: space-evenly;
+}
