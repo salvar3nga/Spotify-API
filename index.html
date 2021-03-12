@@ -8,13 +8,12 @@
     <title>Spotify Project</title>
 </head>
 <body>
-    <!-- <h1>Spotify App</h1> -->
-    
+        
     <div class="data">
         <input type="number" id="number" placeholder="number">
-        <input type="text" id="cover" placeholder="Cover">
+        <input type="text" id="cover" placeholder="img URL">
         <input type="text" id="title" placeholder="title">
-        <input type="number" id="streams" placeholder="streams">
+        <input type="number" id="streams" placeholder="Nr. streams">
         <input type="text" id="interpreter" placeholder="Interpreter">
         <button id="confirm">ok</button>
     </div>
@@ -23,36 +22,26 @@
        
 
         <table>
-            <thead id="tableHeader">
-                <tr class="styleIt">
-                    <div class="headerStyle">
-                        <th>#</th>
-                    </div>
-                    <div class="headerStyle">
-                        <th>Cover</th>
-                    </div>
-                    <div class="headerStyle">
-                        <th>Title</th>
-                    </div>
-                    <div class="headerStyle">
-                        <th>Streams</th>
-                    </div>
-                    <div class="headerStyle">
-                        <th>Interpreter</th>
-                    </div>
+            <thead >
+                <tr class="stick">
+                    <th>#</th>             
+                    <th>Cover</th>
+                    <th>Title</th>
+                    <th>Streams</th>
+                    <th>Interpreter</th>
                 </tr>
             </thead>
             <tbody>
+                <!-- Inseting Data in the table for testing purposes only -->
                 <tr>
                     <td>1</td>
-                    <td><img src="https://i.guim.co.uk/img/media/20098ae982d6b3ba4d70ede3ef9b8f79ab1205ce/0_0_969_1005/master/969.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=5daa50fb52570701a280ccaea66177a9" 
-                        alt="Dog"></td>
-                    <td>Doggo</td>
-                    <td>2009</td>
-                    <td>Sergio</td>
-                    <td><button>Details</button></td>
+                    <td><img src="https://images-na.ssl-images-amazon.com/images/I/61Uxg-SWExL._SL1500_.jpg" 
+                        alt="DP"></td>
+                    <td>Get Lucky</td>
+                    <td>756785</td>
+                    <td>Daft Punk</td>
+                    <td><button class="details">Details</button></td>
                 </tr>
-                
             </tbody>
         </table>
 
